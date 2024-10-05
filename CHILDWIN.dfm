@@ -912,6 +912,10 @@ object MDIChild: TMDIChild
     object SamplesSheet: TTabSheet
       Caption = 'Samples'
       ImageIndex = 31
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object SampleOpts: TGroupBox
         Left = 0
         Top = 504
@@ -921,7 +925,7 @@ object MDIChild: TMDIChild
         object SamOctaveLabel: TLabel
           Left = 145
           Top = 12
-          Width = 66
+          Width = 68
           Height = 13
           Hint = 'Alt+1..8, Numpad 1-8'
           Caption = 'Editor octave:'
@@ -1299,6 +1303,10 @@ object MDIChild: TMDIChild
     object OrnamentsSheet: TTabSheet
       Caption = 'Ornaments'
       ImageIndex = 30
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object SpeedButton21: TSpeedButton
         Left = 464
         Top = 424
@@ -1318,7 +1326,7 @@ object MDIChild: TMDIChild
         object OrnOctaveLabel: TLabel
           Left = 145
           Top = 12
-          Width = 66
+          Width = 68
           Height = 13
           Hint = 'Alt+1..8, Numpad 1-8'
           Caption = 'Editor octave:'
@@ -1637,6 +1645,10 @@ object MDIChild: TMDIChild
     object OptTab: TTabSheet
       Caption = 'Options'
       ImageIndex = 21
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object TrackOptsScrollBox: TScrollBox
         Left = 0
         Top = 2
@@ -1769,6 +1781,10 @@ object MDIChild: TMDIChild
     object InfoTab: TTabSheet
       Caption = 'Info'
       ImageIndex = 43
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object TrackInfoGB: TGroupBox
         Left = 0
         Top = -2
@@ -1960,5 +1976,12 @@ object MDIChild: TMDIChild
       Hint = 'Remember selected folder in Quick Access'
       OnClick = FileBrowserSetFavorite
     end
+  end
+  object ExportYMDlg: TSaveDialog
+    DefaultExt = 'ym'
+    Filter = 'YM|*.ym'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofShareAware, ofEnableSizing]
+    Left = 352
+    Top = 672
   end
 end
