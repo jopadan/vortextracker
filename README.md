@@ -10,6 +10,8 @@ The best music tracker for 8bit AY/YM chips.
 
 [SAPRTOOLS](https://github.com/ivop/saprtools)
 
+convert YM to POKEY:
+
 ym2sapr filename.ym
 
 lzss -6 left.sapr left.lz16
