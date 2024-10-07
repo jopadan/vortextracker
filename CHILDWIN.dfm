@@ -912,10 +912,6 @@ object MDIChild: TMDIChild
     object SamplesSheet: TTabSheet
       Caption = 'Samples'
       ImageIndex = 31
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object SampleOpts: TGroupBox
         Left = 0
         Top = 504

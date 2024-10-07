@@ -8,6 +8,10 @@ Support page: http://bulba.untergrund.net/
 (c)2017-2021 Version 2.0 and later
 Ivan Pirog (Flexx/Enhancers), ivan.pirog@gmail.com
 https://github.com/ivanpirog/vortextracker
+
+2024 Tebe/Madteam
+Fix SampleLenEdit, SampleLoopEdit
+
 }
 
 {.$DEFINE DEBUG}
@@ -16331,6 +16335,8 @@ var
   AllowChange: Boolean;
 begin
 
+  if SampleLenEdit.Text = '' then SampleLenEdit.Text := '01';
+  
   AllowChange := True;
   NewValue := SampleLenUpDown.Position;
 
@@ -16687,6 +16693,9 @@ var
   NewValue, SamLen: Integer;
   AllowChange: Boolean;
 begin
+
+  if SampleLoopEdit.Text = '' then SampleLoopEdit.Text := '00';
+  
 
   AllowChange := True;
   NewValue := SampleLoopUpDown.Position;
