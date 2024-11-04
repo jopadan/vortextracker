@@ -10,6 +10,10 @@ The best music tracker for 8bit AY/YM chips.
 
 [YM2VGM](https://github.com/QuinnPainter/YMtoVGM)
 
+[Pator @ Speccy.pl](https://www.youtube.com/watch?v=mQihKOXCaAc)
+
+## ATARI POKEY
+
 [SAPRTOOLS](https://github.com/ivop/saprtools)
 
 convert YM to POKEY:
