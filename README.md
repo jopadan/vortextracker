@@ -10,7 +10,7 @@ The best music tracker for 8bit AY/YM chips.
 
 [YM2VGM](https://github.com/QuinnPainter/YMtoVGM)
 
-[Pator @ Speccy.pl](https://www.youtube.com/watch?v=mQihKOXCaAc)
+[Pator @ Speccy.pl Jak zacząć z Vortex Tracker](https://www.youtube.com/watch?v=mQihKOXCaAc)
 
 ## ATARI POKEY AY/YM player
 
