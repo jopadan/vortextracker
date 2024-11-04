@@ -12,7 +12,7 @@ The best music tracker for 8bit AY/YM chips.
 
 [Pator @ Speccy.pl](https://www.youtube.com/watch?v=mQihKOXCaAc)
 
-## ATARI POKEY
+## ATARI POKEY AY/YM player
 
 [SAPRTOOLS](https://github.com/ivop/saprtools)
 
